@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread(r'C:\Users\idkms\.spyder-py3\Computer Vision\Images\soccer.png')
+img = cv.imread(r'Images\soccer.png')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 canny = cv.Canny(gray, 100, 200)
 
